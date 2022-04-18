@@ -10,12 +10,11 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '끊임없이 배우고 성장하는데서 성취감을 얻는 프론트엔드 개발자 김정환입니다.',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'chanpoong@naver.com',
       link: '#',
       icon: faEnvelope,
     },
