@@ -5,16 +5,16 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: 'Lorem ipsum',
-      subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      title: 'C`earch',
+      subTitle: '팀 프로젝트 기술 발표',
+      at: '2022-04',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: '서비스 시연 영상 및 발표 자료입니다.',
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: 'URL:',
+          postHref: 'https://www.notion.so/newbizstart/6-6064664e83a141d5ad83c49c292720fb',
         },
       ],
     },

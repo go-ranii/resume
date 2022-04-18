@@ -1,7 +1,7 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/sample.jpg';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,7 +10,7 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '끊임없이 배우고 성장하는데서 성취감을 얻는 프론트엔드 개발자 김정환입니다.',
+    title: '안녕하세요, 프론트엔드 개발자 김정환입니다.',
   },
   contact: [
     {
@@ -19,29 +19,18 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
-    },
-    {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/go-ranii',
+      link: 'https://github.com/go-ranii',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      link: 'https://velog.io/@chanpoong',
+      icon: faBlogger,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    title: '끊임없이 배우고 성장하는데서 성취감을 얻는 프론트엔드 개발자 김정환입니다.',
+    // icon: faBell,
   },
 };
 
