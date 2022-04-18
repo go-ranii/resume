@@ -21,7 +21,7 @@
   "homepage": "https://go-ranii.github.io/resume",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/go-ranii/resume.git"
+    "url": "git+https://github.com/uyu423/resume-nextjs.git"
   },
   "keywords": [
     "resume",
