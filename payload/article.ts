@@ -5,18 +5,27 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: "IU's agency announces official online merchandise shop for fans (2020.04.22)",
-      href:
-        'https://www.gmanetwork.com/entertainment/celebritylife/news/62342/ius-agency-announces-official-online-merchandise-shop-for-fans/story',
+      content: '코드에 관한 문제를 시간에 구애받지 않고 해결하는 온라인 서비스가 있으면 좋겠다',
+      weight: 'MEDIUM',
     },
     {
-      content: 'K-pop star IU donates ₩100 million to doctors for coronavirus relief (2020.02.27)',
-      href: 'http://www.koreabiomed.com/news/articleView.html?idxno=7550',
+      content: `제가 부트캠프에서 진행한 팀 프로젝트의 시발점이 되었던 생각입니다.
+      위와 같은 생각을 토대로 출발한 기획은 C'earch라는 프로젝트명을 가진 서비스로 구현이 되었고, 진행했던 C'earch가 실제로 제공되는 서비스가 된다면 그 끝은  인프런과 같은 형태로 나타날 거라 생각합니다.
+      기본적으로 코딩을 공부하며 가지고 있던 생각에 프로젝트를 통해 가지고 있던 생각이 구체화하기 시작하니 자연스레 관심을 가지게 되었으며 이 관심이 자라 ‘같이 일하고 싶다.’라는 생각으로 번지게 되었습니다. \n
+      `,
     },
     {
-      content: 'IU donates 100 million KRW after being inspired by her fans (2019.12.30)',
-      href:
-        'https://www.allkpop.com/article/2019/12/iu-donates-to-100-million-krw-after-being-inspired-by-her-fans',
+      content: `또한 인프런은 새롭게 공부하는 과정에서는 물론이고 프로젝트를 진행하는 과정과 그 이후에도 개발자로서 공부하고 성장하기 위해서는 뗄 수 없는 사이트라고 생각하며 이는 홈페이지뿐만 아니라 채용페이지의 ‘인프랩 프론트엔드 개발팀이 일하는 법’이라는 페이지에서도 분명하게 느낄 수 있습니다.
+      주 단위로 실행되는 업무 공유와 회고, 작업한 코드에 대한 코드리뷰에서 그 점을 가장 강하게 느낄 수 있었는데, 부트캠프나 팀 프로젝트를 진행할 때도 회고와 코드 리뷰에서 얻어가고 배우는 게 많았기 때문입니다.`,
+    },
+    {
+      content:
+        '그뿐만 아니라, 자식 공부가 부족한 바닐라 자바스크립트 등의 레거시 코드를 모던 스택으로 변환하는 과정에 있다는 점도 하나의 이유입니다. 위에서 언급한 개발팀이 일하는 법의 문단 중 ‘다양한 레거시 개편 경험을 얻을 수 있습니다’라는 문단에서 알 수 있듯 다양하고 희귀한 경험을 접하고 공부하며 성장할 수 있다는 게 강점으로 느껴졌고 이 또한 팀 전체가 학습하며 제가 찾지 못했거나 어렵게 느끼는 부분을 다양한 방법을 통해 함께 학습하며 적용한다는 것이 또 하나의 ‘인프런 프론트엔드 개발자로 합류해야 할 이유’로 다가왔습니다.',
+    },
+    {
+      content:
+        '모두가 스타플레이어를 꿈꾸며 가진바 실력을 인정받고자 하지만 저는 스타플레이어로서의 주목보다는 ‘팀에 없어서는 안 될 플레이어’로서 인프런에 합류하여 함께 경기를 지배해나가고 점진적인 성장을 통해 팀에 도움이 될 수 있는 선수가 되고자 지원하게 됐습니다.',
+      weight: 'MEDIUM',
     },
   ],
 };

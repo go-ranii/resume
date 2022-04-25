@@ -36,7 +36,7 @@ const project: IProject.Payload = {
           content: 'What did I do?',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'OpenAPI를 활용한 데아터 불러오기' },
+            { content: 'OpenAPI를 활용한 데이터 불러오기' },
             { content: 'Rest-API와 GraphQL을 혼용하여 데이터 요청' },
             { content: '권한 분기 및 정규 표현식 등의 기술 활용' },
             { content: 'MUI, ant-design 등 라이브러리 활용' },
